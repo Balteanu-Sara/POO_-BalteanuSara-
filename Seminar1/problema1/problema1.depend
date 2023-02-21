@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1676997766 source:c:\users\sara\onedrive\desktop\facultate\poo\problema1\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+
