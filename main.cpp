@@ -1,41 +1,35 @@
 #include <iostream>
-
+#include <cstring>
+#include <fstream>
 using namespace std;
-
-
-
-bool isPrime(int n)
-
-{
-
-    for (int tr = 2; tr < n / 2; tr++)
-
-        if ((n % tr ) == 0)
-
-            return false;
-
-    return true;
-
-}
-
 int main()
-
 {
+    char s[256], *p, cuv[256][256];
+    int n=0, i, j;
+    scanf("%[^\n]s", s);
+    p=strtok(s," ");
+    while(p)
+    {
+        strcpy(cuv[n],p);
+        n++;
+        p=strtok(NULL," ");
+    }
+    n--;
+    for(i=0; i<n; i++)
+        for(j=i+1; j<=n; j++)
+        {
+            if(strlen(cuv[i])<strlen(cuv[j]))
+                swap(cuv[i], cuv[j]);
+            else if(strlen(cuv[i])==strlen(cuv[j]))
+            {
+                if(strcmp(cuv[i], cuv[j])>0)
+                    swap(cuv[i], cuv[j]);
+            }
 
-    int n;
-
-    std::cout << "Enter a number:";
-
-    std::cin >> n;
-
-    if (isPrime(n))
-
-        std::cout << n << " is prime !";
-
-    else
-
-        std::cout << n << " is NOT prime !";
-
+        }
+    for(i=0;i<=n; i++)
+    {
+        printf("%s\n", cuv[i]);
+    }
     return 0;
-
 }
