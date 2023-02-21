@@ -1,35 +1,36 @@
 #include <iostream>
-#include <cstring>
 #include <fstream>
+#include <cstring>
 using namespace std;
+int convert(char v[])
+{
+    int i=0,a=0;
+    while (v[i]>='0' && v[i]<='9')
+    {
+        a=a*10+(v[i]-'0');
+        i++;
+    }
+    return a;
+}
 int main()
 {
-    char s[256], *p, cuv[256][256];
-    int n=0, i, j;
-    scanf("%[^\n]s", s);
-    p=strtok(s," ");
-    while(p)
+    FILE* p;
+    p=fopen("in1.txt", "r");
+    char x[50];
+    int n=0, s=0;
+    if(p==NULL)
     {
-        strcpy(cuv[n],p);
-        n++;
-        p=strtok(NULL," ");
+        printf("Fisierul nu exista.");
     }
-    n--;
-    for(i=0; i<n; i++)
-        for(j=i+1; j<=n; j++)
+    else
+    {
+        while (fgets(x,50,p)!=NULL)
         {
-            if(strlen(cuv[i])<strlen(cuv[j]))
-                swap(cuv[i], cuv[j]);
-            else if(strlen(cuv[i])==strlen(cuv[j]))
-            {
-                if(strcmp(cuv[i], cuv[j])>0)
-                    swap(cuv[i], cuv[j]);
-            }
+            s=s+convert(x);
 
         }
-    for(i=0;i<=n; i++)
-    {
-        printf("%s\n", cuv[i]);
+        printf("%d", s);
     }
+    fclose(p);
     return 0;
 }
