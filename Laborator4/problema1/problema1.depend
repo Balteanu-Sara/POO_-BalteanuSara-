@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1678819527 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator4\problema1\main.cpp
+	<iostream>
+	<cstring>
+	"Sort.h"
+
+1678820848 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator4\problema1\sort.h
+
+1679262007 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator4\problema1\sort.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<stdarg.h>
+	"Sort.h"
+
