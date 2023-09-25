@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1679475586 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator5\problema1\main.cpp
+	<iostream>
+	"Number.h"
+
+1679424871 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator5\problema1\number.h
+	<cstring>
+
+1679425605 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator5\problema1\number.cpp
+	<iostream>
+	<cstring>
+	<cmath>
+	"Number.h"
+
