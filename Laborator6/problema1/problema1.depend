@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1679993153 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\main.cpp
+	<iostream>
+	"Circuit.h"
+	"Car.h"
+	"Weather.h"
+
+1680019307 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\circuit.cpp
+	"Circuit.h"
+	"Car.h"
+	"Weather.h"
+	<iostream>
+
+1680020978 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\circuit.h
+	"Car.h"
+	"Bmw.h"
+	"Volvo.h"
+	"Seat.h"
+	"Fiat.h"
+	"RangeRover.h"
+
+1680020696 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\car.h
+	"Weather.h"
+
+1680018305 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\weather.h
+
+1679993962 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\bmw.cpp
+	"Bmw.h"
+
+1679990215 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\bmw.h
+	"Car.h"
+
+1679994042 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\fiat.cpp
+	"Fiat.h"
+
+1679988763 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\fiat.h
+	"Car.h"
+
+1679994042 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\rangerover.cpp
+	"RangeRover.h"
+
+1679991659 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\rangerover.h
+	"Car.h"
+
+1679994042 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\seat.cpp
+	"Seat.h"
+
+1679988756 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\seat.h
+	"Car.h"
+
+1679993829 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\volvo.cpp
+	"Volvo.h"
+
+1679988739 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator6\problema1\volvo.h
+	"Car.h"
+
