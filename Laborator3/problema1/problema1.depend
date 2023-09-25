@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1678196248 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator3\problema1\main.cpp
+	<iostream>
+	"Math.h"
+
+1678130419 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator3\problema1\math.h
+
+1678195991 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator3\problema1\math.cpp
+	<iostream>
+	<cstring>
+	<stdarg.h>
+	<algorithm>
+	"Math.h"
+
