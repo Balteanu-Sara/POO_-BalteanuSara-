@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1682940288 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator8\problema1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<map>
+	<queue>
+	<utility>
+	<cstddef>
+
