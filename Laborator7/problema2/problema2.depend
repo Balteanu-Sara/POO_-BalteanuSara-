@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1680618183 source:c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator7\problema2\main.cpp
+	"Tree.h"
+
+1680622535 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator7\problema2\tree.h
+	"Node.h"
+
+1680613454 c:\users\sara\onedrive\desktop\facultate\an1\semestrul2\poo\laborator7\problema2\node.h
+	<iostream>
+
